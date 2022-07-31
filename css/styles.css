@@ -1,5 +1,28 @@
+/* Root */
 :root {
   --primary-text-color: #000000;
   --primary-elements-color: #4bb165;
   --secondary-elements-color: #f49714;
 }
+/* Tag selectors */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+.link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.navigation__list {
+  list-style: none;
+}
+
+/* Main */
+
+/* Footer */
