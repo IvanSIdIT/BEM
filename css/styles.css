@@ -3,6 +3,7 @@
   --primary-text-color: #000000;
   --primary-elements-color: #4bb165;
   --secondary-elements-color: #f49714;
+  --primary-title-color: #3d433f;
 }
 /* Tag selectors */
 
@@ -18,10 +19,8 @@ body {
 header {
   display: flex;
   align-items: center;
-}
-
-.nav-wrapper {
-  /* display: flex; */
+  position: absolute;
+  z-index: 3;
 }
 
 .contacts {
@@ -43,5 +42,43 @@ header {
 }
 
 /* Main */
+/* Hero */
 
+.hero {
+  font-weight: 500px;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  left: 85px;
+  top: 415px;
+}
+
+.hero__title {
+  width: 600px;
+}
+
+.hero__text_first {
+  width: 310px;
+}
+
+.hero__text {
+  width: 516px;
+}
+
+.hero__form {
+  position: absolute;
+  width: 448px;
+  height: 512px;
+  left: 942px;
+  top: 334px;
+  background-color: #ffffff;
+}
+
+.hero__background {
+  max-width: 1440px;
+  max-height: 1032px;
+  position: relative;
+}
 /* Footer */
