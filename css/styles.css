@@ -77,7 +77,6 @@ header {
 }
 
 .hero__background {
-  max-width: 1440px;
   max-height: 1032px;
   position: relative;
 }
