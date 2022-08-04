@@ -84,4 +84,12 @@ header {
   max-height: 1032px;
   position: relative;
 }
-/* Footer */
+/* hero */
+/* our-services */
+/* our-benifits */
+/* our-projects */
+/* partners */
+.partners {
+  background-color: var(--secondary-background-color);
+}
+/* footer */
