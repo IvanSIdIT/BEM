@@ -4,6 +4,7 @@
   --primary-elements-color: #4bb165;
   --secondary-elements-color: #f49714;
   --primary-title-color: #3d433f;
+  --secondary-background-color: #f1f1f1;
 }
 /* Tag selectors */
 
@@ -36,8 +37,11 @@ header {
   color: var(--primary-text-color);
 }
 
-.navigation__list {
+.list {
   list-style: none;
+}
+
+.navigation__list {
   display: flex;
 }
 
