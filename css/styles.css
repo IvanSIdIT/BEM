@@ -8,20 +8,36 @@
 }
 /* Tag selectors */
 
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+}
+
+p {
+  margin: 0%;
+}
+
+main {
   width: 1440px;
   margin: 0 auto;
+  position: relative;
 }
 
 /* Header */
 
-header {
+.header {
   display: flex;
   align-items: center;
   position: absolute;
   z-index: 3;
+  width: 1440px;
+  left: 311px;
+  top: 48px;
 }
 
 .contacts {
@@ -30,11 +46,6 @@ header {
 
 .logo {
   width: 210px;
-}
-
-.link {
-  text-decoration: none;
-  color: var(--primary-text-color);
 }
 
 .list {
@@ -92,4 +103,18 @@ header {
 .partners {
   background-color: var(--secondary-background-color);
 }
+
+.parntners-wrapper {
+  background-color: var(--secondary-background-color);
+  width: 100%;
+}
 /* footer */
+.footer {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.footer,
+.footer-wrapper {
+  background-color: var(--secondary-background-color);
+}

@@ -50,7 +50,7 @@
       <a href="" class="link">DOMLUVIT SCHŮZKU</a>
     </header>
     <!-- Main -->
-    <main>
+    <main class="main">
       <!-- Hero -->
       <section class="hero" id="hero">
         <img
@@ -216,32 +216,36 @@
         </ul>
         <a href="" class="our-projects__link link">Více projektů</a>
       </section>
-      <section class="partners">
-        <h2 class="partners__title">Partners</h2>
-        <ul class="partners__list list">
-          <li class="partners__item">
-            <img src="./images/partners/logo 1.png" alt="" class="partners__logo" />
-          </li>
-          <li class="partners__item">
-            <img src="./images/partners/logo-for-wix 1.png" alt="" class="partners__logo" />
-          </li>
-          <li class="partners__item">
-            <img src="./images/partners/partner number 3.png" alt="" class="partners__logo" />
-          </li>
-          <li class="partners__item">
-            <img src="./images/partners/logo 3.png" alt="" class="partners__logo" />
-          </li>
-          <li class="partners__item">
-            <img src="./images/partners/logo 4.png" alt="" class="partners__logo" />
-          </li>
-          <li class="partners__item">
-            <img src="./images/partners/logo 5.png" alt="" class="partners__logo" />
-          </li>
-        </ul>
-      </section>
+      <!-- partners -->
+      <div class="parntners-wrapper">
+        <section class="partners">
+          <h2 class="partners__title">Partners</h2>
+          <ul class="partners__list list">
+            <li class="partners__item">
+              <img src="./images/partners/logo 1.png" alt="" class="partners__logo" />
+            </li>
+            <li class="partners__item">
+              <img src="./images/partners/logo-for-wix 1.png" alt="" class="partners__logo" />
+            </li>
+            <li class="partners__item">
+              <img src="./images/partners/partner number 3.png" alt="" class="partners__logo" />
+            </li>
+            <li class="partners__item">
+              <img src="./images/partners/logo 3.png" alt="" class="partners__logo" />
+            </li>
+            <li class="partners__item">
+              <img src="./images/partners/logo 4.png" alt="" class="partners__logo" />
+            </li>
+            <li class="partners__item">
+              <img src="./images/partners/logo 5.png" alt="" class="partners__logo" />
+            </li>
+          </ul>
+        </section>
+      </div>
+      <!-- reviwes -->
       <section class="reviews">
         <h2 class="reviews__title">REFERENCES</h2>
-        <ul class="reviews__list">
+        <ul class="reviews__list list">
           <li class="reviews__item">
             <img src="./images/KAVITSKAS GROUP.png" alt="" />
             <p class="reviews__text">
@@ -260,6 +264,7 @@
           </li>
         </ul>
       </section>
+      <!-- call-to-join -->
       <section class="call-to-join">
         <img src="" alt="" class="call-to-join__image" />
         <p class="call-to-join__text">
@@ -269,36 +274,61 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer>
-      <img class="footer__logo logo" src="./images/logo.png" alt="" />
-      <h2 class="footer__title_first"></h2>
-      <div class="footer__contacts contacts">
-        <div class="call-wrapper">
-          <img src="./images/Call.png" alt="Call icon" width="40" />
-          <a href="tel:+420000000000" class="phone link">+420 000 000 000</a>
+    <div class="footer-wrapper">
+      <footer class="footer">
+        <img class="footer__logo logo" src="./images/logo.png" alt="" />
+        <h2 class="footer__title_first">Rychlý kontakt</h2>
+        <div class="footer__contacts contacts">
+          <div class="call-wrapper">
+            <img src="./images/Call.png" alt="Call icon" width="40" />
+            <a href="tel:+420000000000" class="phone link">+420 000 000 000</a>
+          </div>
+          <div class="e-mail-wrapper">
+            <img src="./images/Email.png" alt="" width="40" />
+            <a href="mailto:example@example.com" class="e-mail link">example@example.com</a>
+          </div>
         </div>
-        <div class="e-mail-wrapper">
-          <img src="./images/Email.png" alt="" width="40" />
-          <a href="mailto:example@example.com" class="e-mail link">example@example.com</a>
+        <div class="footer__navigation">
+          <h2 class="navigation__title">NAVIGACE</h2>
+          <ul class="footer__navigation__list list">
+            <li class="footer__navigation__item">Služby</li>
+            <li class="footer__navigation__item">Naše projekty</li>
+            <li class="footer__navigation__item">O nás</li>
+            <li class="footer__navigation__item">Kontakty</li>
+          </ul>
         </div>
-      </div>
-      <div class="footer__navigation">
-        <h2 class="navigation__title"></h2>
-        <ul class="footer__navigation__list">
-          <li class="footer__navigation__item"></li>
-          <li class="footer__navigation__item"></li>
-          <li class="footer__navigation__item"></li>
-          <li class="footer__navigation__item"></li>
-        </ul>
-      </div>
-      <div class="footer__links">
-        <h2 class="links__title"></h2>
-        <ul class="links__list">
-          <li class="links__item"></li>
-          <li class="links__item"></li>
-        </ul>
-      </div>
-      <div class="footer__adress"><h2></h2></div>
-    </footer>
+        <div class="footer__links">
+          <h2 class="links__title">UŽITEČNÉ ODKAZY</h2>
+          <ul class="links__list list">
+            <li class="links__item">Cookies</li>
+            <li class="links__item">Nakládání s osobními údaji</li>
+          </ul>
+        </div>
+        <div class="footer__adress">
+          <h2 class="adress__title">Fakturační údaje:</h2>
+          <ul class="adress__list list">
+            <li class="adress__item">CZECH PROPERTY SERVICE, S. R. O.</li>
+            <li class="adress__item">Na Plzeňce 1166/4</li>
+            <li class="adress__item">Praha 5 – Smíchov 150 00</li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <h2 class="social__title"></h2>
+          <ul class="social__list list">
+            <li class="social__item">
+              <img src="./images/social-media/LinkedIn.png" alt="" class="social__item" />
+            </li>
+            <li class="social__item">
+              <img src="./images/social-media/Insta.png" alt="" class="social__item" />
+            </li>
+
+            <li class="social__item">
+              <img src="./images/social-media/facebook.png" alt="" class="social__item" />
+            </li>
+          </ul>
+        </div>
+        <p class="footer__text">Všechna práva vyhrazena 2022</p>
+      </footer>
+    </div>
   </body>
 </html>
