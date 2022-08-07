@@ -44,8 +44,20 @@ main {
   display: flex;
 }
 
+.primary-button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1em;
+  letter-spacing: 0.15em;
+  background: #f49714;
+  border-radius: 10px;
+  padding: 15px 30px;
+  color: #ffffff;
+}
+
 .logo {
   width: 210px;
+  height: 110px;
 }
 
 .list {
@@ -54,6 +66,27 @@ main {
 
 .navigation__list {
   display: flex;
+  margin: 0 0 0 60px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+}
+
+.navigation__item {
+  margin: 0 0 0 45px;
+}
+
+.navigation__item:first-child {
+  margin-left: 0%;
+}
+
+.header__contacts {
+  margin: 0 0 15px 115px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
 }
 
 /* Main */
@@ -98,7 +131,10 @@ main {
   width: 100%;
   position: relative;
 }
-/* hero */
+
+.hero__button {
+  border: none;
+}
 /* our-services */
 .our-services {
   width: 1440px;
