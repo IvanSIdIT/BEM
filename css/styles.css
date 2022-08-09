@@ -5,12 +5,17 @@
   --secondary-elements-color: #f49714;
   --primary-title-color: #3d433f;
   --secondary-background-color: #f1f1f1;
+  --form-text-color: #c4c4c4;
 }
 /* Tag selectors */
 
 a {
   text-decoration: none;
   color: var(--primary-text-color);
+}
+
+ul {
+  padding: 0%;
 }
 
 body {
@@ -49,7 +54,7 @@ main {
   font-size: 20px;
   line-height: 1.1em;
   letter-spacing: 0.15em;
-  background: #f49714;
+  background: var(--secondary-elements-color);
   border-radius: 10px;
   color: #ffffff;
 }
@@ -98,7 +103,8 @@ main {
 .hero {
   font-weight: 500;
   position: relative;
-
+  width: 1440px;
+  margin: 0 auto;
   margin: 0 auto;
 }
 
@@ -113,7 +119,7 @@ main {
   font-size: 20px;
   line-height: 1.2em;
   letter-spacing: 0.15em;
-  color: var(--primary-title-color);
+
   width: 310px;
 }
 
@@ -140,22 +146,74 @@ main {
   left: 942px;
   top: 334px;
   background-color: #ffffff;
+  border-radius: 10px;
+}
+.hero-form__title {
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--primary-title-color);
+  padding: 40px 0px 0 65px;
+  margin: 0 0 30px 0;
+}
+
+.hero-form__text {
+  font-size: 15px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--form-text-color);
+  margin: 0 0px 0 50px;
+  padding: 0 0 14px 0;
+  width: 144px;
+}
+
+.hero-form__input {
+  width: 342px;
+  height: 50px;
+  margin: 0 0 25px 48px;
+  padding: 0%;
 }
 
 .hero__background {
   max-height: 1032px;
-  width: 100%;
+  width: 1440px;
+  margin: 0 auto;
   position: relative;
 }
 
 .hero__button {
   border: none;
+  padding: 15px 30px;
+  margin: 0 0px 32px 67px;
 }
 /* our-services */
 .our-services {
   width: 1440px;
   margin: 0 auto;
 }
+
+.our-services__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0.15em;
+}
+.services-list__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+}
+.services-list__text {
+  font-size: 20px;
+  line-height: 1.4em;
+  letter-spacing: 0.1em;
+}
+
+.services-list__link {
+  padding: 15px 20px 15px 30px;
+}
+
 /* our-benifits */
 .our-benifits {
   width: 1440px;
