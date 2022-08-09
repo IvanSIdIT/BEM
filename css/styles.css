@@ -87,6 +87,9 @@ main {
 
 .header__contacts {
   margin: 0 0 15px 115px;
+}
+
+.contacts {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.2em;
@@ -219,10 +222,54 @@ main {
   width: 1440px;
   margin: 0 auto;
 }
+.our-benifits__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+}
+.benefits-list__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--primary-title-color);
+}
+.benefits-list__text {
+  font-size: 20px;
+  line-height: 1.4em;
+  letter-spacing: 0.1em;
+}
+
 /* our-projects */
 .our-projects {
   width: 1440px;
   margin: 0 auto;
+}
+.our-projects__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+}
+
+.projects-list__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--primary-title-color);
+}
+
+.projects-list__text {
+  font-size: 20px;
+  line-height: 1.4em;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.our-projects__link {
+  padding: 15px 30px;
 }
 /* partners */
 .partners {
@@ -240,12 +287,42 @@ main {
   width: 1440px;
   margin: 0 auto;
 }
+.reviews__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+}
+.reviews__text {
+  font-size: 20px;
+  line-height: 1.4em;
+  letter-spacing: 0.1em;
+}
+
+.reviwes__name {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--primary-title-color);
+}
 
 /* call-to-join */
 .call-to-join {
   width: 1440px;
   margin: 0 auto;
 }
+.call-to-join__text {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+}
+
+.call-to-join__link {
+  padding: 15px 30px;
+}
+
 /* footer */
 .footer {
   margin: 0 auto;
@@ -255,4 +332,24 @@ main {
 .footer,
 .footer-wrapper {
   background-color: var(--secondary-background-color);
+}
+
+.footer__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--primary-title-color);
+}
+
+.footer__items {
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1em;
+}
+
+.adress__item {
+  font-size: 18px;
+  line-height: 1.2em;
 }
