@@ -51,7 +51,6 @@ main {
   letter-spacing: 0.15em;
   background: #f49714;
   border-radius: 10px;
-  padding: 15px 30px;
   color: #ffffff;
 }
 
@@ -89,13 +88,17 @@ main {
   letter-spacing: 0.15em;
 }
 
+.header-link {
+  padding: 15px 30px;
+}
+
 /* Main */
 /* Hero */
 
 .hero {
-  font-weight: 500px;
+  font-weight: 500;
   position: relative;
-  /* width: 1440px; */
+
   margin: 0 auto;
 }
 
@@ -105,19 +108,32 @@ main {
   top: 415px;
 }
 
-.hero__title {
-  width: 600px;
-}
-
 .hero__text_first {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--primary-title-color);
   width: 310px;
 }
 
+.hero__title {
+  font-size: 60px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  width: 600px;
+}
 .hero__text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--primary-title-color);
   width: 516px;
 }
 
-.hero__form {
+.hero-form {
   position: absolute;
   width: 448px;
   height: 512px;
