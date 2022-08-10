@@ -42,7 +42,11 @@ main {
   width: 1440px;
   margin: 0 auto;
   left: 311px;
-  top: 48px;
+  top: 50px;
+}
+
+.header__logo {
+  margin: 0 60px 0 0;
 }
 
 .contacts {
@@ -70,23 +74,24 @@ main {
 
 .navigation__list {
   display: flex;
-  margin: 0 0 0 60px;
   font-weight: 500;
   font-size: 25px;
   line-height: 1.2em;
   letter-spacing: 0.15em;
+
+  margin: 0%;
 }
 
 .navigation__item {
-  margin: 0 0 0 45px;
+  margin: 0 45px 0 0;
 }
 
-.navigation__item:first-child {
-  margin-left: 0%;
+.navigation__item:last-child {
+  margin-right: 60px;
 }
 
 .header__contacts {
-  margin: 0 0 15px 115px;
+  margin: 0 0 15px 55px;
 }
 
 .contacts {
@@ -96,8 +101,17 @@ main {
   letter-spacing: 0.15em;
 }
 
+.contacts__icon {
+  margin: 0 15px 0 0;
+  align-items: center;
+}
+
 .header-link {
   padding: 15px 30px;
+}
+
+.call-wrapper {
+  margin: 0 30px 0 0;
 }
 
 /* Main */
@@ -353,4 +367,15 @@ main {
 .adress__item {
   font-size: 18px;
   line-height: 1.2em;
+}
+
+.e-mail,
+.phone {
+  align-items: center;
+}
+
+.e-mail-wrapper,
+.call-wrapper {
+  display: flex;
+  flex-direction: row;
 }
