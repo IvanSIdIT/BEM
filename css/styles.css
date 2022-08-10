@@ -122,7 +122,7 @@ main {
   position: relative;
   width: 1440px;
   margin: 0 auto;
-  margin: 0 auto;
+  margin-bottom: 105px;
 }
 
 .hero-content {
@@ -215,6 +215,8 @@ main {
   font-size: 60px;
   line-height: 70px;
   letter-spacing: 0.15em;
+  text-align: center;
+  margin: 0 0 95px 0;
 }
 .services-list__title {
   font-weight: 500;
@@ -222,14 +224,69 @@ main {
   line-height: 1.2em;
   letter-spacing: 0.15em;
 }
+
+.services-list__title:nth-child(1) {
+  margin: 0 0 20px 0;
+}
+.services-list__title:nth-child(2) {
+  margin: 0 0 55px 0;
+}
+.services-list__title:nth-child(3) {
+  margin: 0 0 52px 0;
+}
+.services-list__title:nth-child(4) {
+  margin: 0 0 17px 0;
+}
 .services-list__text {
   font-size: 20px;
   line-height: 1.4em;
   letter-spacing: 0.1em;
+  display: inline-block;
+}
+
+.services-list__text:nth-child(1) {
+  margin: 0 0 25px 0;
+}
+.services-list__text:nth-child(2) {
+  margin: 0 0 65px 0;
+}
+.services-list__text:nth-child(3) {
+  margin: 0 0 75px 0;
+}
+.services-list__text:nth-child(4) {
+  margin: 0 0 45px 0;
+}
+
+.our-services__item:nth-child(1) {
+  width: 520px;
+}
+.our-services__item:nth-child(2) {
+  width: 475px;
+}
+.our-services__item:nth-child(3) {
+  width: 450px;
+}
+.our-services__item:nth-child(4) {
+  width: 515px;
 }
 
 .services-list__link {
   padding: 15px 20px 15px 30px;
+}
+
+.our-services__item:nth-child(1),
+.our-services__item:nth-child(3) {
+  margin: 0 0 85px 0;
+}
+
+/* .our-services__item:nth-child(1) {
+  margin: 0 130px 0 0;
+} */
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 0 124px;
 }
 
 /* our-benifits */
@@ -369,7 +426,7 @@ main {
   line-height: 1.2em;
 }
 
-.e-mail,
+/* .e-mail,
 .phone {
   align-items: center;
 }
@@ -378,4 +435,4 @@ main {
 .call-wrapper {
   display: flex;
   flex-direction: row;
-}
+} */
