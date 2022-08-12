@@ -402,6 +402,8 @@ main {
 .our-projects__list {
   display: flex;
   flex-wrap: wrap;
+  padding: 0 0 0 120px;
+  margin: 0 0 135px 0;
 }
 
 .projects-list__image {
@@ -425,6 +427,10 @@ main {
 .projets-list__item:nth-child(3),
 .projets-list__item:nth-child(4) {
   margin-bottom: 0%;
+}
+
+.our-projects__link {
+  margin: 0 0 65px 597px;
 }
 
 /* partners */
