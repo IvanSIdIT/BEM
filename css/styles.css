@@ -208,6 +208,7 @@ main {
 .our-services {
   width: 1440px;
   margin: 0 auto;
+  margin-bottom: 175px;
 }
 
 .our-services__title {
@@ -297,11 +298,17 @@ main {
   width: 1440px;
   margin: 0 auto;
 }
+
+.benefits-list {
+  display: flex;
+}
 .our-benifits__title {
   font-weight: 500;
   font-size: 60px;
   line-height: 1.2em;
   letter-spacing: 0.15em;
+  text-align: center;
+  margin: 0 0 65px 0;
 }
 .benefits-list__title {
   font-weight: 500;
@@ -314,6 +321,39 @@ main {
   font-size: 20px;
   line-height: 1.4em;
   letter-spacing: 0.1em;
+}
+
+.our-benefits__item {
+  max-width: 390px;
+  margin: 0 125px 0 0;
+}
+
+.our-benefits__item:nth-child(1) {
+  padding: 0 0 0 60px;
+}
+
+.our-benefits__item:nth-child(2) {
+  max-width: 335px;
+}
+
+.our-benefits__item:nth-child(3) {
+  max-width: 355px;
+  margin-right: 0%;
+  padding: 0 0 225px 0;
+}
+
+.benefits-list_image {
+  display: inline-flex;
+  text-align: center;
+  padding: 0 0 0 115px;
+}
+
+.benefits-list_image_second {
+  padding: 0 0 0 90px;
+}
+
+.benefits-list_image-third {
+  padding: 0 0 0 80px;
 }
 
 /* our-projects */
