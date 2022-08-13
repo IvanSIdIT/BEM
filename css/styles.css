@@ -430,7 +430,8 @@ main {
 }
 
 .our-projects__link {
-  margin: 0 0 65px 597px;
+  margin: 0 0 0 597px;
+  margin-bottom: 65px;
 }
 
 /* partners */
@@ -438,10 +439,17 @@ main {
   background-color: var(--secondary-background-color);
   width: 1440px;
   margin: 0 auto;
+  height: 300px;
 }
 
 .partners__list {
   display: flex;
+  padding: 110px 0 0 65px;
+}
+
+.partners__logo {
+  margin: 0 40px 0 0;
+  align-items: flex-end;
 }
 
 .parntners-wrapper {
@@ -453,11 +461,25 @@ main {
   width: 1440px;
   margin: 0 auto;
 }
+
+.reviews__list {
+  /* flex-wrap: wrap; */
+  display: flex;
+  padding: 0 0 275px 120px;
+}
+
+.reviews__item {
+  width: 570px;
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.06), -4px -4px 25px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  margin: 0 60px 0 0;
+}
 .reviews__title {
   font-weight: 500;
   font-size: 60px;
   line-height: 1.2em;
   letter-spacing: 0.15em;
+  text-align: center;
 }
 .reviews__text {
   font-size: 20px;
