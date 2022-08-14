@@ -18,6 +18,15 @@ ul {
   padding: 0%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -121,14 +130,19 @@ main {
   font-weight: 500;
   position: relative;
   width: 1440px;
+  height: 1032px;
   margin: 0 auto;
   margin-bottom: 105px;
+
+  background-image: linear-gradient(rgba(255, 255, 255, 0.41), rgba(255, 255, 255, 0.41)),
+    url('../images/HeroBackground.png');
+  background-position: top;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
 }
 
 .hero-content {
-  position: absolute;
-  left: 85px;
-  top: 415px;
+  padding: 415px 0 0 85px;
 }
 
 .hero__text_first {
@@ -463,13 +477,13 @@ main {
 }
 
 .reviews__list {
-  /* flex-wrap: wrap; */
   display: flex;
   padding: 0 0 275px 120px;
 }
 
 .reviews__item {
   width: 570px;
+  height: 410px;
   box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.06), -4px -4px 25px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   margin: 0 60px 0 0;
@@ -480,11 +494,22 @@ main {
   line-height: 1.2em;
   letter-spacing: 0.15em;
   text-align: center;
+  margin: 140px 0 150px 0;
 }
+
+.reviews__image {
+  margin: 0 0 30px 0;
+}
+
 .reviews__text {
   font-size: 20px;
   line-height: 1.4em;
   letter-spacing: 0.1em;
+  margin: 0 0 5px 0;
+}
+
+.reviews__content {
+  padding: 100px 0 0 60px;
 }
 
 .reviwes__name {
@@ -542,13 +567,14 @@ main {
   line-height: 1.2em;
 }
 
-/* .e-mail,
-.phone {
-  align-items: center;
+.social__list {
+  display: flex;
 }
 
-.e-mail-wrapper,
-.call-wrapper {
-  display: flex;
-  flex-direction: row;
-} */
+.social__item {
+  margin: 0 40px 0 0;
+}
+
+.social__item:last-child {
+  margin: 0%;
+}
