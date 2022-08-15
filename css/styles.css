@@ -616,3 +616,22 @@ main {
 .social__item:last-child {
   margin: 0%;
 }
+
+.footer__logo {
+  padding: 45px 0 0 90px;
+}
+
+.footer__contacts {
+  flex-wrap: wrap;
+  width: 252px;
+  margin: 0 290px 0 0;
+}
+
+.footer__content {
+  display: flex;
+  /* padding: 0 0 0 90px; */
+}
+
+.footer__navigation {
+  margin: 0 210px 0 0;
+}
