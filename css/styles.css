@@ -531,6 +531,15 @@ main {
   height: 1030px;
   margin: 0 auto;
 }
+
+.call-to-join__content {
+  display: flex;
+}
+
+.test {
+  margin: 360px 0 0 70px;
+}
+
 .call-to-join__text {
   font-weight: 500;
   font-size: 60px;
@@ -538,17 +547,19 @@ main {
   letter-spacing: 0.15em;
   display: inline-block;
   width: 740px;
-  padding: 370px 0 0 660px;
+  margin: 0 0 100px 0;
+  /* padding: 370px 0 0 660px; */
 }
 
 .call-to-join__link {
   padding: 15px 30px;
-  margin: 100px 0 0 665px;
+  /* margin: 100px 0 0 665px; */
   display: inline-block;
 }
 
 .call-to-join__images {
   position: relative;
+  margin: 190px 0 0 90px;
 }
 
 .call-to-join__image {
