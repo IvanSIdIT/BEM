@@ -329,7 +329,7 @@ main {
   line-height: 1.2em;
   letter-spacing: 0.15em;
   text-align: center;
-  margin: 0 0 65px 0;
+  margin: 0 0 165px 0;
 }
 .benefits-list__title {
   font-weight: 500;
@@ -337,6 +337,7 @@ main {
   line-height: 1.2em;
   letter-spacing: 0.15em;
   color: var(--primary-title-color);
+  margin: 0 0 25px 0;
 }
 .benefits-list__text {
   font-size: 20px;
@@ -606,6 +607,11 @@ main {
 .adress__item {
   font-size: 18px;
   line-height: 1.2em;
+  margin: 0 0 5px 0;
+}
+
+.adress__item:last-child {
+  margin-bottom: 0;
 }
 
 .social__list {
@@ -622,12 +628,17 @@ main {
 
 .footer__logo {
   padding: 45px 0 0 90px;
+  margin: 0 0 50px;
 }
 
 .footer__contacts {
   flex-wrap: wrap;
-  width: 252px;
-  margin: 0 290px 0 0;
+  width: 260px;
+  margin: 0 290px 35px 0;
+}
+
+.contacts__title {
+  flex-wrap: nowrap;
 }
 
 .footer__content {
@@ -640,13 +651,41 @@ main {
   margin: 0 210px 0 0;
 }
 
+.footer__navigation__item {
+  margin: 0 0 15px 0;
+}
+
+.footer__navigation__item:last-child {
+  margin-bottom: 0;
+}
+
+.links__item {
+  margin: 0 0 15px 0;
+}
+
+.links__item:last-child {
+  margin-bottom: 0;
+}
+
 .footer__phone,
 .footer__e-mail {
-  width: 252px;
+  width: 190px;
   display: inline-block;
 }
 
 .footer__e-mail-wrapper,
 .footer__call-wrapper {
   display: flex;
+}
+
+.footer__adress {
+  margin: 0 535px 50px 0;
+}
+
+.footer__text {
+  padding: 0 0 43px 560px;
+}
+
+.footer__link:hover {
+  color: tomato;
 }
