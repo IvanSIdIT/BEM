@@ -50,28 +50,40 @@ main {
 }
 /* main */
 /* about-us */
-
+.about-us {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 145px 0 120px 0;
+}
 .about-us__title {
   font-weight: 500;
   font-size: 60px;
-  line-height: 70px;
+  line-height: 1.2em;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   text-align: center;
+  margin: 0 0 105px 0;
 }
 
 .about-us__subtitle {
   font-weight: 500;
   font-size: 30px;
-  line-height: 35px;
+  line-height: 1.2em;
   letter-spacing: 0.15em;
   color: var(--primary-title-color);
+
+  margin: 0 0 25px 80px;
 }
 
 .about-us__text {
   line-height: 1.4em;
-
+  width: 767px;
   letter-spacing: 0.1em;
+  margin: 0 0 55px 80px;
+}
+
+.about-us__image {
+  padding: 0 0 0 690px;
 }
 
 /* our-benifits */
