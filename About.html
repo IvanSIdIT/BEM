@@ -13,7 +13,9 @@
     <meta name="msapplication-TileColor" content="#4bb165" />
     <meta name="theme-color" content="#4bb165" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/About.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,29 +26,31 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header">
-      <img class="header__logo logo" src="./images/logo.png" alt="" />
-      <div class="nav-wrapper">
-        <div class="header__contacts contacts">
-          <div class="call-wrapper">
-            <img src="./images/Call.png" alt="call icon" width="40" class="contacts__icon" />
-            <a href="tel:+420000000000" class="phone link">+420 000 000 000</a>
+    <div class="header-wrapper">
+      <header class="header">
+        <a href="./index.html"><img class="header__logo logo" src="./images/logo.png" alt="" /></a>
+        <div class="nav-wrapper">
+          <div class="header__contacts contacts">
+            <div class="call-wrapper">
+              <img src="./images/Call.png" alt="call icon" width="40" class="contacts__icon" />
+              <a href="tel:+420000000000" class="phone link">+420 000 000 000</a>
+            </div>
+            <div class="e-mail-wrapper">
+              <img src="./images/Email.png" alt="" width="40" class="contacts__icon" />
+              <a href="mailto:example@example.com" class="e-mail link">+420 000 000 000</a>
+            </div>
           </div>
-          <div class="e-mail-wrapper">
-            <img src="./images/Email.png" alt="" width="40" class="contacts__icon" />
-            <a href="mailto:example@example.com" class="e-mail link">+420 000 000 000</a>
-          </div>
+          <nav class="header__nav navigation">
+            <ul class="navigation__list list">
+              <li class="navigation__item"><a class="link" href="">Služby</a></li>
+              <li class="navigation__item"><a class="link" href="">Naše projekty</a></li>
+              <li class="navigation__item"><a class="link" href="">O nás</a></li>
+              <li class="navigation__item"><a class="link" href="">Kontakty</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav class="header__nav navigation">
-          <ul class="navigation__list list">
-            <li class="navigation__item"><a class="link" href="">Služby</a></li>
-            <li class="navigation__item"><a class="link" href="">Naše projekty</a></li>
-            <li class="navigation__item"><a class="link" href="">O nás</a></li>
-            <li class="navigation__item"><a class="link" href="">Kontakty</a></li>
-          </ul>
-        </nav>
-      </div>
-      <a href="" class="header-link link primary-button">DOMLUVIT SCHŮZKU</a>
-    </header>
+        <a href="" class="header-link link primary-button">DOMLUVIT SCHŮZKU</a>
+      </header>
+    </div>
   </body>
 </html>

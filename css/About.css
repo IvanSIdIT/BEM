@@ -1,0 +1,50 @@
+:root {
+  --primary-text-color: #000000;
+  --primary-elements-color: #4bb165;
+  --secondary-elements-color: #f49714;
+  --primary-title-color: #3d433f;
+  --secondary-background-color: #f1f1f1;
+  --form-text-color: #c4c4c4;
+}
+
+/* Tag selectors */
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+ul {
+  padding: 0%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+p {
+  margin: 0%;
+}
+
+main {
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  padding-bottom: 90px;
+}
+
+.header-wrapper {
+  border-bottom: 1px solid #3d433f;
+}
