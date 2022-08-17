@@ -42,9 +42,154 @@ main {
 }
 
 .header {
-  padding-bottom: 90px;
+  padding: 65px 0 90px 70px;
 }
 
 .header-wrapper {
   border-bottom: 1px solid #3d433f;
+}
+/* main */
+/* about-us */
+
+/* our-benifits */
+.our-benifits {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.benefits-list {
+  display: flex;
+}
+.our-benifits__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin: 0 0 165px 0;
+}
+.benefits-list__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--primary-title-color);
+  margin: 0 0 25px 0;
+}
+.benefits-list__text {
+  font-size: 20px;
+  line-height: 1.4em;
+  letter-spacing: 0.1em;
+}
+
+.our-benefits__item {
+  max-width: 390px;
+  margin: 0 125px 0 0;
+}
+
+.our-benefits__item:nth-child(1) {
+  padding: 0 0 0 60px;
+}
+
+.our-benefits__item:nth-child(2) {
+  max-width: 335px;
+}
+
+.our-benefits__item:nth-child(3) {
+  max-width: 355px;
+  margin-right: 0%;
+  padding: 0 0 225px 0;
+}
+
+.benefits-list_image {
+  display: inline-flex;
+  text-align: center;
+  padding: 0 0 0 115px;
+}
+
+.benefits-list_image_second {
+  padding: 0 0 0 90px;
+}
+
+.benefits-list_image-third {
+  padding: 0 0 0 80px;
+}
+
+/* our-projects */
+.our-projects {
+  width: 1440px;
+  margin: 0 auto;
+}
+.our-projects__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin: 0 0 100px 0;
+}
+
+.projects-list__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  color: var(--primary-title-color);
+  margin: 0 0 35px 0;
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+
+.projects-list__image {
+  margin: 0 0 35px 0;
+  padding: 0 0 0 95px;
+}
+
+.projects-list__text {
+  font-size: 20px;
+  line-height: 1.4em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  width: 450px;
+  margin: 0 0 0 60px;
+  padding: 0 0 50px 0;
+}
+.our-projects__link {
+  padding: 15px 30px;
+}
+
+.our-projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 0 120px;
+  margin: 0 0 135px 0;
+}
+
+.projects-list__image {
+  width: 380px;
+  height: 280px;
+}
+
+.projets-list__item {
+  width: 570px;
+  border: 2px solid #4bb165;
+  border-radius: 10px;
+  /* filter: drop-shadow(4px 4px 25px rgba(0, 0, 0, 0.25)); */
+  margin: 0 60px 60px 0;
+}
+
+.projets-list__item:nth-child(2),
+.projets-list__item:nth-child(4) {
+  margin-right: 0%;
+}
+
+.projets-list__item:nth-child(3),
+.projets-list__item:nth-child(4) {
+  margin-bottom: 0%;
+}
+
+.our-projects__link {
+  margin: 0 0 0 597px;
+  margin-bottom: 65px;
 }
