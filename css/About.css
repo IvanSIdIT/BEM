@@ -154,6 +154,7 @@ main {
 .our-projects {
   width: 1440px;
   margin: 0 auto;
+  padding: 0 0 65px 0;
 }
 .our-projects__title {
   font-weight: 500;
@@ -227,6 +228,23 @@ main {
 .our-projects__link {
   margin: 0 0 0 597px;
   margin-bottom: 65px;
+}
+
+/* about-call */
+
+.about-call {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 110px 0 130px 125px;
+}
+
+.about-call__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  width: 1150px;
+  margin: 0 0 50px 0;
 }
 
 .about-call__button {

@@ -44,91 +44,9 @@ main {
 /* Header */
 
 .header {
-  /* display: flex;
-  align-items: center; */
   position: absolute;
   z-index: 3;
-  /* width: 1440px; */
-  /* margin: 0 auto;
-  left: 311px;
-  top: 50px; */
 }
-
-/* .header__logo {
-  margin: 0 60px 0 0;
-}
-
-.contacts {
-  display: flex;
-}
-
-.primary-button {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.1em;
-  letter-spacing: 0.15em;
-  background: var(--secondary-elements-color);
-  border-radius: 10px;
-  color: #ffffff;
-}
-
-.primary-button:hover {
-  background-color: tomato;
-  box-shadow: 1px 1px 10px #000000;
-}
-
-.logo {
-  width: 210px;
-  height: 110px;
-}
-
-.list {
-  list-style: none;
-}
-
-.navigation__list {
-  display: flex;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 1.2em;
-  letter-spacing: 0.15em;
-
-  margin: 0%;
-}
-
-.navigation__item {
-  margin: 0 45px 0 0;
-}
-
-.navigation__item:last-child {
-  margin-right: 60px;
-}
-
-.header__contacts {
-  margin: 0 0 15px 55px;
-}
-
-.contacts {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.2em;
-  letter-spacing: 0.15em;
-}
-
-.contacts__icon {
-  margin: 0 15px 0 0;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-}
-
-.header-link {
-  padding: 15px 30px;
-}
-
-.call-wrapper {
-  margin: 0 30px 0 0;
-} */
 
 /* Main */
 /* Hero */
@@ -384,6 +302,7 @@ main {
 .our-projects {
   width: 1440px;
   margin: 0 auto;
+  padding: 0 0 65px 0;
 }
 .our-projects__title {
   font-weight: 500;
