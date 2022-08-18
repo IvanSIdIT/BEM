@@ -228,3 +228,8 @@ main {
   margin: 0 0 0 597px;
   margin-bottom: 65px;
 }
+
+.about-call__button {
+  padding: 15px 30px;
+  border: none;
+}
