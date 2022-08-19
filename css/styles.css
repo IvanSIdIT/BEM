@@ -70,6 +70,7 @@ main {
   width: 1440px;
   padding: 415px 0 0 85px;
   margin: 0 auto;
+  margin-right: 260px;
 }
 
 .hero__text_first {
@@ -106,6 +107,7 @@ main {
   top: 334px;
   background-color: #ffffff;
   border-radius: 10px;
+  /* margin-left: 260px; */
 }
 .hero-form__title {
   font-size: 20px;
