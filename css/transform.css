@@ -1,0 +1,43 @@
+.transform__one {
+  background-color: tomato;
+  color: #ffffff;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  animation-name: red-cube;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  transition-duration: 1s;
+}
+
+.transform__one:hover {
+  transition-duration: 1s;
+}
+
+@keyframes red-cube {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    border-radius: 50%;
+  }
+  100% {
+    transform: translate(500px, 0);
+  }
+}
+
+body {
+  background-color: #373737;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
