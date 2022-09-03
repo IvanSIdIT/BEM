@@ -119,11 +119,13 @@ section[class*='__section'] {
   background-color: #ffffff;
   border-radius: 10px;
   margin-left: 200px;
-  animation: form-up 2s;
+  animation: form-up 1.5s;
 }
+
 @keyframes form-up {
   0% {
     transform: translate(0, 200px);
+
     opacity: 0;
   }
 
