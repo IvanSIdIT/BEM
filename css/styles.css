@@ -75,6 +75,7 @@ section[class*='__section'] {
   width: 1440px;
   padding: 415px 0 0 85px;
   margin-left: 189px;
+  animation: form-up 2s;
 }
 
 .hero__text_first {
@@ -118,7 +119,20 @@ section[class*='__section'] {
   background-color: #ffffff;
   border-radius: 10px;
   margin-left: 200px;
+  animation: form-up 2s;
 }
+@keyframes form-up {
+  0% {
+    transform: translate(0, 200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
 .hero-form__title {
   font-size: 20px;
   line-height: 1.2em;
@@ -159,7 +173,7 @@ section[class*='__section'] {
 }
 /* our-services */
 .our-services__section {
-  margin-bottom: 175px;
+  padding-bottom: 175px;
 }
 
 .our-services__title {
