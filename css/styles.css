@@ -42,8 +42,11 @@ main {
 }
 
 section[class*='__section'] {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
+}
+
+body {
 }
 
 /* Header */
@@ -64,12 +67,15 @@ section[class*='__section'] {
   height: 1032px;
   margin: 0 auto;
   margin-bottom: 105px;
-
+  width: 100%;
   background-image: linear-gradient(rgba(255, 255, 255, 0.41), rgba(255, 255, 255, 0.41)),
     url('../images/HeroBackground.png');
   background-position: top;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
+}
+
+.hero-wrapper {
 }
 
 .hero-content {
