@@ -51,6 +51,7 @@ section[class*='__section'] {
 .header {
   position: absolute;
   z-index: 3;
+  transform: translate(-50%, 0);
 }
 
 /* Main */
