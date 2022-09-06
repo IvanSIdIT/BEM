@@ -42,11 +42,8 @@ main {
 }
 
 section[class*='__section'] {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
-}
-
-body {
 }
 
 /* Header */
@@ -73,9 +70,6 @@ body {
   background-position: top;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
-}
-
-.hero-wrapper {
 }
 
 .hero-content {
@@ -354,6 +348,9 @@ body {
 .projects-list__image {
   margin: 0 0 35px 0;
   padding: 0 0 0 95px;
+  justify-content: center;
+  width: 380px;
+  height: 280px;
 }
 
 .projects-list__text {
@@ -377,12 +374,10 @@ body {
   margin: 0 0 135px 0;
 }
 
-.projects-list__image {
-  width: 380px;
-  height: 280px;
-}
-
 .projets-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 570px;
   border: 2px solid #4bb165;
   border-radius: 10px;
@@ -415,6 +410,7 @@ body {
 .partners__list {
   display: flex;
   padding: 110px 0 0 65px;
+  align-items: center;
 }
 
 .partners__logo {
