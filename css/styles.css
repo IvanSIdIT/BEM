@@ -42,8 +42,9 @@ main {
 }
 
 section[class*='__section'] {
-  width: 1440px;
+  width: 1470px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Header */
@@ -475,10 +476,6 @@ section[class*='__section'] {
 
 .call-to-join__content {
   display: flex;
-}
-
-.test {
-  margin: 360px 0 0 70px;
 }
 
 .call-to-join__text {
