@@ -485,14 +485,13 @@ section[class*='__section'] {
   letter-spacing: 0.15em;
   display: inline-block;
   width: 740px;
-  margin: 0 0 100px 0;
-  /* padding: 370px 0 0 660px; */
+  margin: 320px 0 50px 100px;
 }
 
 .call-to-join__link {
   padding: 15px 30px;
-  /* margin: 100px 0 0 665px; */
   display: inline-block;
+  margin-left: 100px;
 }
 
 .call-to-join__images {
