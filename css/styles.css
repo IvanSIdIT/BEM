@@ -1,4 +1,4 @@
-/* Root */
+/**** Root ****/
 :root {
   --primary-text-color: #000000;
   --primary-elements-color: #4bb165;
@@ -7,7 +7,7 @@
   --secondary-background-color: #f1f1f1;
   --form-text-color: #c4c4c4;
 }
-/* Tag selectors */
+/**** Tag selectors ****/
 
 a {
   text-decoration: none;
@@ -47,7 +47,7 @@ section[class*='__section'] {
   padding: 0 15px;
 }
 
-/* Header */
+/**** Header ****/
 
 .header {
   position: absolute;
@@ -55,8 +55,8 @@ section[class*='__section'] {
   transform: translate(-50%, 0);
 }
 
-/* Main */
-/* Hero */
+/******* Main *******/
+/**** Hero ****/
 
 .hero {
   font-weight: 500;
@@ -78,6 +78,8 @@ section[class*='__section'] {
   padding: 415px 0 0 85px;
   margin-left: 189px;
   animation: form-up 2s;
+  margin: 0 auto;
+  display: flex;
 }
 
 .hero__text_first {
@@ -113,14 +115,15 @@ section[class*='__section'] {
 }
 
 .hero-form {
-  position: absolute;
+  /* position: absolute;
+  left: 942px;
+  top: 334px; */
   width: 448px;
   height: 512px;
-  left: 942px;
-  top: 334px;
+
   background-color: #ffffff;
   border-radius: 10px;
-  margin-left: 200px;
+  margin-left: 260px;
   animation: form-up 1.5s;
 }
 
@@ -262,7 +265,7 @@ section[class*='__section'] {
   padding: 0 0 0 124px;
 }
 
-/* our-benifits */
+/**** our-benifits ****/
 
 .benefits-list {
   display: flex;
@@ -322,7 +325,7 @@ section[class*='__section'] {
   padding: 0 0 0 80px;
 }
 
-/* our-projects */
+/**** our-projects ****/
 .our-projects__section {
   padding: 0 0 65px 0;
 }
@@ -401,7 +404,7 @@ section[class*='__section'] {
   margin-bottom: 65px;
 }
 
-/* partners */
+/**** partners ****/
 .partners__section {
   background-color: var(--secondary-background-color);
 
@@ -423,7 +426,11 @@ section[class*='__section'] {
   background-color: var(--secondary-background-color);
   width: 100%;
 }
-/* reviews */
+
+.partners__title {
+  display: none;
+}
+/**** reviews ****/
 
 .reviews__list {
   display: flex;
@@ -469,7 +476,7 @@ section[class*='__section'] {
   color: var(--primary-title-color);
 }
 
-/* call-to-join */
+/**** call-to-join ****/
 .call-to-join__section {
   height: 1030px;
 }
